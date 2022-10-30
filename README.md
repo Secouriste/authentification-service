@@ -9,12 +9,6 @@ Après avoir installé nodejs. Clonez le projet et rendez-vous dans le repertoir
 
 -npm install
 
--npm init --y 
-
--npm install -g nodemon
-
--npm i dotenv express
-
--npm i dotenv express cors 
-
 -npm run start (pour runner le service)
+
+Il est possible que vous ayez besoin d'installer des dépendances. Si c'est le cas rendez-vous dans package.json et installé les dépendances que vous voyez
