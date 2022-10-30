@@ -15,6 +15,6 @@ Après avoir installé nodejs. Clonez le projet et rendez-vous dans le repertoir
 
 -npm i dotenv express
 
-- npm i dotenv express cors 
+-npm i dotenv express cors 
 
 -npm run start (pour runner le service)
