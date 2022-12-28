@@ -17,4 +17,5 @@ jobs:
             npm install --save
       - run :
          name: Run Tests
-         command : npm run test
+         command : |
+          ./nodes_modules/jest/bin/jest.js tests/
