@@ -15,6 +15,7 @@ jobs:
           name: Install npm dependencies
           command: |
             npm install --save
+            npm update
       - run :
          name: Run Tests
          command : |
