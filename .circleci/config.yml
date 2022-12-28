@@ -18,5 +18,4 @@ jobs:
             npm install semver
       - run :
          name: Run Tests
-         command : |
-          ./node_modules/jest/bin/jest.js tests/
+         command : npm run test
