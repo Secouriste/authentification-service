@@ -9,11 +9,11 @@
     "prettier": "prettier --check ./src/**/*.ts",
     "start": "NODE_ENV=prod nodemon src/index_test.ts",
     "dev": "NODE_ENV=dev nodemon src/index_test.ts",
-    "test":"jest"
+    "test": "jest"
   },
-  "jest":{
-   "testEnvironment":"node",
-   "preset":"ts-jest"
+  "jest": {
+    "testEnvironment": "node",
+    "preset": "ts-jest"
   },
   "keywords": [],
   "author": "Giovani-Jose Tchibozo",
