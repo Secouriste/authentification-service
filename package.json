@@ -7,8 +7,8 @@
     "lint": "eslint src/**/*.ts",
     "prettier:fix": "prettier --write ./src/**/*.ts",
     "prettier": "prettier --check ./src/**/*.ts",
-    "start": "NODE_ENV=prod nodemon src/index_test.ts",
-    "dev": "NODE_ENV=dev nodemon src/index_test.ts",
+    "start": "NODE_ENV=prod nodemon src/index.ts",
+    "dev": "NODE_ENV=dev nodemon src/index.ts",
     "test": "jest --detectOpenHandles"
   },
   "jest": {
