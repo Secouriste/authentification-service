@@ -4,5 +4,5 @@ import { app } from "../app";
 
 it('response',async ()=>
 {
- await request(app).get("/").expect(300);
+ await request(app).get("/").expect(200);
 });
