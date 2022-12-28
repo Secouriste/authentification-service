@@ -15,7 +15,6 @@ jobs:
           name: Install npm dependencies
           command: |
             npm install --save
-      - node/install-packages
       - run :
          name: Run Tests
          command : npm run test
